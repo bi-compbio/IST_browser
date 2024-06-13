@@ -1,0 +1,31 @@
+Package: ISTBrowser
+Type: Package
+Title: In Silico Treatment Modelling Browser
+Version: 1.0.0
+Author: Piotr Radkowski <piotr.radkowski.ext@boehringer-ingelheim.com>
+Maintainer: Sergio Picart-Armada <sergio.picart-armada@boehringer-ingelheim.com>
+Description: IST results browser. This package allows for the interactive 
+  exploration of an IST (In Silico Treatment) analysis. One can compare
+  signatures across hallmark pathways, compare pairs of signatures, 
+  prioritise signatures and prioritise pathways.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 3.6.0)
+Imports:
+    shiny,
+    shinydashboard, 
+    shinyWidgets, 
+    shinyjs, 
+    shinyBS, 
+    DT, 
+    data.table,
+    magrittr,
+    dplyr,
+    tibble,
+    ggplot2,
+    ggrepel
+Suggests:
+    IST
+RoxygenNote: 7.2.3
